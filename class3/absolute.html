@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            width: 200px;
+            height:100px;
+            position: relative;
+            border: 1px solid black;
+            margin: 10px;
+        }
+        .a{
+            width:50px;
+            height: 50px;
+            background: #000;
+            right: -20px;
+            bottom: 20px;
+            position:absolute;
+            z-index: 100;
+        }
+        .b{
+             width:50px;
+            height: 50px;
+            background: red;
+            left: 70px;
+            bottom: -20px;
+            position:absolute;
+        }
+         .c{
+            width:50px;
+            height: 50px;
+            background: red;
+            left: -20px;
+            bottom:30px;
+            position:absolute;
+        }
+         .d{
+            width:50px;
+            height: 50px;
+            background: red;
+            top: -20px;
+            left:70px;
+            position:absolute;
+        }
+
+        .arrow{
+            border:20px solid;
+            border-color: red transparent transparent transparent;
+            width: 0;
+            position: relative;
+            left:20px;
+            top:-10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="a"></div>
+        <div class="b"></div>
+        <div class="c"></div>
+        <div class="d"></div>
+    </div>
+    <div class="arrow"></div>
+</body>
+</html>
